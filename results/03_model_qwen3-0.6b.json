@@ -1,0 +1,106 @@
+{
+  "model": "Qwen/Qwen3-0.6B",
+  "label": "qwen3-0.6b",
+  "sweep": [
+    {
+      "n_users": 1,
+      "wall_time": 1.6802870000246912,
+      "total_tokens": 100,
+      "throughput": 59.51364260898914,
+      "avg_ttft": 0.25182650005444884,
+      "avg_tpot": 0.014426590059883893,
+      "avg_latency": 1.6800589159829542,
+      "failed_requests": 0
+    },
+    {
+      "n_users": 2,
+      "wall_time": 1.4789828329812735,
+      "total_tokens": 200,
+      "throughput": 135.22807401141236,
+      "avg_ttft": 0.08518108347197995,
+      "avg_tpot": 0.014046949914167401,
+      "avg_latency": 1.4758291249745525,
+      "failed_requests": 0
+    },
+    {
+      "n_users": 4,
+      "wall_time": 1.614229292026721,
+      "total_tokens": 400,
+      "throughput": 247.79627155556452,
+      "avg_ttft": 0.09949794752174057,
+      "avg_tpot": 0.015280523149277827,
+      "avg_latency": 1.6122697393002454,
+      "failed_requests": 0
+    },
+    {
+      "n_users": 8,
+      "wall_time": 1.7058062920114025,
+      "total_tokens": 800,
+      "throughput": 468.98642814635156,
+      "avg_ttft": 0.1326549737714231,
+      "avg_tpot": 0.015861721222101936,
+      "avg_latency": 1.7029653747595148,
+      "failed_requests": 0
+    },
+    {
+      "n_users": 16,
+      "wall_time": 2.8961891250219196,
+      "total_tokens": 1600,
+      "throughput": 552.450109758592,
+      "avg_ttft": 0.13291840637248242,
+      "avg_tpot": 0.027887612346585045,
+      "avg_latency": 2.893792028684402,
+      "failed_requests": 0
+    },
+    {
+      "n_users": 32,
+      "wall_time": 3.132524334010668,
+      "total_tokens": 3200,
+      "throughput": 1021.5403485478885,
+      "avg_ttft": 0.16333156893961132,
+      "avg_tpot": 0.029951023570167233,
+      "avg_latency": 3.1284829023861676,
+      "failed_requests": 0
+    },
+    {
+      "n_users": 48,
+      "wall_time": 4.029549875063822,
+      "total_tokens": 4800,
+      "throughput": 1191.2000468598185,
+      "avg_ttft": 0.19687844885629602,
+      "avg_tpot": 0.03866038184802311,
+      "avg_latency": 4.024256251810584,
+      "failed_requests": 0
+    },
+    {
+      "n_users": 64,
+      "wall_time": 4.152047166018747,
+      "total_tokens": 6400,
+      "throughput": 1541.4083087444155,
+      "avg_ttft": 0.22412024998448032,
+      "avg_tpot": 0.03961793713229285,
+      "avg_latency": 4.1462960260814725,
+      "failed_requests": 0
+    },
+    {
+      "n_users": 96,
+      "wall_time": 7.079934917041101,
+      "total_tokens": 9600,
+      "throughput": 1355.9446679224707,
+      "avg_ttft": 0.37070665324426955,
+      "avg_tpot": 0.06766634867352898,
+      "avg_latency": 7.069675171923639,
+      "failed_requests": 0
+    },
+    {
+      "n_users": 128,
+      "wall_time": 10.463142749969848,
+      "total_tokens": 12800,
+      "throughput": 1223.3418109522484,
+      "avg_ttft": 1.880234893553279,
+      "avg_tpot": 0.06205778237420813,
+      "avg_latency": 8.023955348599884,
+      "failed_requests": 0
+    }
+  ]
+}
